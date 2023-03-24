@@ -7,7 +7,7 @@ body {
     /* display flex serve para deixar flexivel tudo que esta dentro do conteiner */
     display: flex;
    /* serve para colocar espaçamento do conteiner todo(para descolar da borda) */
-    margin: 40px; 10px; 10px; 10px;
+    margin: 40px;
 }
 .subtitulo-pagina {
     font-size: 20pt;
@@ -52,4 +52,9 @@ body {
     /* serve para deixar o conteiner no meio */
     justify-content: center;
 
+}
+.endereço {
+    display: flex;
+    padding-left: 3rem;
+    
 }
