@@ -1,28 +1,22 @@
 body {
     color: whitesmoke;
 }
-
 body {
     /* serve para dar cor no fundo/body */
     background: radial-gradient(#874421, #7c3b1a, #b87733);
-
 }
-
 .navegacaomenu {
     /* display flex serve para deixar flexivel tudo que esta dentro do conteiner */
     display: flex;
     /* serve para jogar o texto para o final */
     justify-content: flex-end;
 }
-
 .navegacaomenu {
     /* serve para colocar espaçamento do conteiner todo(para descolar da borda) */
     padding-right: 3rem;
     /* serve para colocar espaçamento do conteiner todo(para descolar do topo) */
     padding-top: 3rem;
-
 }
-
 .navegacaomenu a {
     /* serve para colocar espaçamento entre as palavras das linhas */
     padding-right: 3rem;
@@ -30,38 +24,60 @@ body {
     color: black;
     text-transform: uppercase;
 }
-
 .navegacaomenu {
     /* serve para mexer no tamanho da fonte das letras */
     font-size: 1.5rem;
-}
-
-.endereço {
-    display: flex;
-    padding-left: 3rem;
 }
 .banner-header {
     width: 100%;  /*largura*/
     height: 300px ; /* altura*/
     object-fit: cover; /* ajustar a imagen para nao estourar*/
+    padding-top: 3rem;
+}
+.titulo-pagina {
+    font-size: 25pt;
+    padding-top: 3rem;
+    margin: 40px;
+}
+.subtitulo-pagina {
+    font-size: 20pt;
+    padding-top: 1rem;
+    margin: 40px;
 }
 main {
         display: flex;
         flex-direction: column;
         /* serve para deixar em coluna, um embaixo do outro( no caso o conteudo do container) */
         align-items: center;
+        padding-top: 10rem;
 }
-
+.titulo-containerProdutos {
+    font-size: 20pt;
+    font-weight: lighter;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
 .container-produtos {
-        background-color: whitesmoke;
+        background-color: white;
         width: 90%;
         display: flex;
         justify-content: space-around;
         /* faz o alinhamento na horizontal */
+        
 }
-
 .fotos-produtos {
         width: 200px;
         height: 200px;
-        object-fit: cover;
+        object-fit: cover;      
+}
+.imagem-footer {
+    width: 100%;  /*largura*/
+    height: 300px ; /* altura*/
+    object-fit: cover; /* ajustar a imagen para nao estourar*/
+    padding-top: 3rem;
+}
+.endereço-catalogo {
+    display: flex;
+    padding-left: 3rem;
+    padding-top: 3rem;
 }
