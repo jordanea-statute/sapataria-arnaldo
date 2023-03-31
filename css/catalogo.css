@@ -74,3 +74,20 @@ body {
     object-fit: cover;
     object-position:0 50;
 }
+main {
+    display: flex;
+    flex-direction: column; /* serve para deixar em coluna, um embaixo do outro( no caso o conteudo do container) */
+    align-items: center;
+}
+.container-produtos {
+background-color: whitesmoke;
+width: 90%;
+display: flex;
+justify-content: space-around ; /* faz o alinhamento na horizontal */
+}
+
+.fotos-produtos {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
