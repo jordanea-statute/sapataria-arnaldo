@@ -1,26 +1,9 @@
 body {
     color: whitesmoke;
 }
-.titulo-pagina {
-    font-size: 30pt;
-    font-weight: bold;
-    /* display flex serve para deixar flexivel tudo que esta dentro do conteiner */
-    display: flex;
-   /* serve para colocar espaçamento do conteiner todo(para descolar da borda) */
-    margin: 40px;
-}
-.subtitulo-pagina {
-    font-size: 20pt;
-    display: flex;
-    padding-left: 4rem;
-}
-.titulo-fotoArnaldo {
-    font-size: 20pt;
-}
 body {
     /* serve para dar cor no fundo/body */
     background: radial-gradient(#874421, #7c3b1a,#b87733);
-
 }
 .navegacaomenu {
     /* display flex serve para deixar flexivel tudo que esta dentro do conteiner */
@@ -46,6 +29,19 @@ body {
     /* serve para mexer no tamanho da fonte das letras */
     font-size: 1.5rem;
 }
+.titulo-pagina {
+    font-size: 30pt;
+    font-weight: bold;
+    /* display flex serve para deixar flexivel tudo que esta dentro do conteiner */
+    display: flex;
+   /* serve para colocar espaçamento do conteiner todo(para descolar da borda) */
+    margin: 40px;
+}
+.subtitulo-pagina {
+    font-size: 20pt;
+    display: flex;
+    padding-left: 4rem;
+}
 .imagem-home {
    /* /* serve para deixar o conteiner flexivo */
    /* display: flex;*/
@@ -56,21 +52,7 @@ body {
     object-fit: cover;
     object-position: 0 50; /* ajustar a posição da imagen,com altura e largura*/
 }
-
 .endereço {
     display: flex;
-    padding-left: 3rem;
-    
-}
-.banner-header {
-    width: 100%;  /*largura*/
-    height: 300px ; /* altura*/
-    object-fit: cover; /* ajustar a imagen para nao estourar*/
-}
-
-.foto-banner-pagina {
-    width: 1200px;
-    height: 600px;
-    object-fit: cover;
-    object-position:0 50;
+    padding-left: 3rem;  
 }
