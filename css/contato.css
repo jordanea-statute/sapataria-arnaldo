@@ -44,6 +44,9 @@ body {
 }
 .endereço {
     display: flex;
-    padding-left: 3rem;
-      
+    padding-right: 3rem;
+    
+}
+.icons-social {
+    height: 2rem;
 }
