@@ -43,10 +43,12 @@ body {
     padding-left: 4rem;
 }
 .endereço {
-    display: flex;
-    padding-right: 3rem;
-    
+    /* display: flex;*/
+    padding-top: 3rem;
+    padding-left: 3rem;
 }
 .icons-social {
     height: 2rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
 }

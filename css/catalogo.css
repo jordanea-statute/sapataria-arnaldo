@@ -55,7 +55,7 @@ main {
     font-size: 20pt;
     font-weight: lighter;
     padding-bottom: 3rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 .container-produtos {
         background-color: white;
@@ -77,10 +77,14 @@ main {
     padding-top: 3rem;
 }
 .endereço-catalogo {
-    display: flex;
+    /* display: flex;
     padding-left: 3rem;
+    padding-top: 3rem; */
     padding-top: 3rem;
+    padding-left: 3rem;
 }
 .icons-social {
     height: 2rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
 }
