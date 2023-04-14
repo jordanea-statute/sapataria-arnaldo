@@ -3,7 +3,7 @@ body {
 }
 body {
     /* serve para dar cor no fundo/body */
-    background: radial-gradient(#874421, #7c3b1a,#b87733);
+    background: var(--cor-fundo-principal);
 }
 .navegacaomenu {
     /* display flex serve para deixar flexivel tudo que esta dentro do conteiner */

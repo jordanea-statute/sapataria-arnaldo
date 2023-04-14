@@ -1,35 +1,39 @@
+:root{
+    --cor-fundo-principal: radial-gradient(#874421, #7c3b1a,#b87733);
+
+}
 body {
     color: whitesmoke;
 }
 body {
     /* serve para dar cor no fundo/body */
-    background: radial-gradient(#874421, #7c3b1a,#b87733);
+    background: var(--cor-fundo-principal);
 }
-.navegacaomenu {
+.navbar. {
     /* display flex serve para deixar flexivel tudo que esta dentro do conteiner */
     display: flex; 
     /* serve para jogar o texto para o final */
      justify-content: flex-end;
 }
-.navegacaomenu {
+.navbar {
     /* serve para colocar espaçamento do conteiner todo(para descolar da borda) */
     padding-right: 3rem;
     /* serve para colocar espaçamento do conteiner todo(para descolar do topo) */
     padding-top: 3rem;
 
 }
-.navegacaomenu a {
+.navbar {
     /* serve para colocar espaçamento entre as palavras das linhas */
     padding-right: 3rem;
     text-decoration: none;
     color: black;
     text-transform: uppercase;
 }
-.navegacaomenu {
+.navbar {
     /* serve para mexer no tamanho da fonte das letras */
     font-size: 1.5rem;
 }
-.titulo-pagina {
+.page-title {
     font-size: 30pt;
     font-weight: bold;
     /* display flex serve para deixar flexivel tudo que esta dentro do conteiner */
@@ -37,12 +41,12 @@ body {
    /* serve para colocar espaçamento do conteiner todo(para descolar da borda) */
     margin: 40px;
 }
-.subtitulo-pagina {
+.page-subtitle {
     font-size: 20pt;
     display: flex;
     padding-left: 4rem;
 }
-.imagem-home {
+.image-home {
    /* /* serve para deixar o conteiner flexivo */
    /* display: flex;*/
     /* serve para deixar o conteiner no meio */
@@ -52,7 +56,12 @@ body {
     object-fit: cover;
     object-position: 0 50; /* ajustar a posição da imagen,com altura e largura*/
 }
-.endereço {
+.adress-page {
     display: flex;
     padding-left: 3rem;  
+}
+.social-icons {
+    height: 2rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
 }
