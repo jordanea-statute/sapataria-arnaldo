@@ -1,12 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,200;1,300;1,500;1,600;1,700&display=swap');
+
 :root {
     --cor-fundo-principal: radial-gradient(#874421, #7c3b1a, #b87733);
-
 }
 
 body {
     color: whitesmoke;
     /* serve para dar cor no fundo/body */
     background: var(--cor-fundo-principal);
+    font-family: Raleway, sans-serif;
+    font-style: italic;
+    font-weight: 100;
 }
 
 .navbar {
@@ -129,4 +134,17 @@ padding-top: 3rem;
     height: 2rem;
     padding-top: 3rem;
     padding-left: 3rem;
+}
+/* pagina contato */
+.container {
+    display: flex;
+    justify-content: space-between; /*space-between serve para alinhar ao lado tudo que esta dentro do container*/
+
+}
+.container > aside > img{
+    width: 400px;
+}
+.container h3{
+    font-size: 14pt;
+    font-weight: 600;
 }
