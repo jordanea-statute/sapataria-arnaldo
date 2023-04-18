@@ -25,7 +25,7 @@ body {
 .navbar a {
     /* serve para colocar espaçamento entre as palavras das linhas */
     padding-right: 3rem;
-    text-decoration: none;
+    text-decoration: none; /* serve para tirar o underline do menu*/
     color: black;
     text-transform: uppercase;
 }
