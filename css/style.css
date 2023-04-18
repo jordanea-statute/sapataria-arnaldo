@@ -120,6 +120,7 @@ padding-top: 3rem;
     display: flex;
     flex-direction: column; /*serve para deixar o displei em coluna*/
     padding-left: 3rem;
+    padding-top: 3rem;
     height: 100px; 
     justify-content: space-between ; /*serve para dar o espaçamento das linhas, pois estou usando o column*/
   
