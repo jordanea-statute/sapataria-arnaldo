@@ -117,9 +117,6 @@ padding-top: 3rem;
     object-fit: cover; /* ajustar a imagen para nao estourar*/
     padding-top: 3rem;
 }
-
-
-
 /* footer */
 .adress-page {
     display: flex;
@@ -168,7 +165,6 @@ button{
 display: flex;
 flex-direction: column;
 justify-content: space-around;
-
 height: 20rem;
 margin-left: 1rem;
 
