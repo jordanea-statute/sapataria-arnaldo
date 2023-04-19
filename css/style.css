@@ -46,13 +46,14 @@ body {
     font-size: 20pt;
     display: flex;
     padding-left: 4rem;
+    margin: auto;
 }
 main {
     display: flex;
     flex-direction: column;
     /* serve para deixar em coluna, um embaixo do outro( no caso o conteudo do container) */
     align-items: center;
-    padding-top: 10rem;
+    margin: auto;
 }
 .product-container-title {
 font-size: 20pt;
@@ -130,7 +131,7 @@ padding-top: 3rem;
   
 }
 .social-icons {
-    height: 2rem;
+    height: 5rem;
     padding-top: 3rem;
     padding-left: 3rem;
 }
@@ -140,14 +141,43 @@ padding-top: 3rem;
     justify-content: space-between; /*space-between serve para alinhar ao lado tudo que esta dentro do container*/
 
 }
-.container > aside > img{
+.container > aside > img {
     width: 400px;
 }
-.container h3{
+.container aside{
+    margin:auto;
+    padding-top: 6rem;
+}
+.container h3 {
     font-size: 14pt;
     font-weight: 600;
 }
+
 /* formulario */
 label, button{
     display: block;   
+}
+input, select,textarea{
+    border: none;
+    background-color: #f1f1f1d0;
+}
+button{
+    cursor: pointer; /* serve para aparecer a a maozinha para clicar*/
+}
+.contact-form{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+height: 20rem;
+margin-left: 1rem;
+
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select,
+.contact-form button{
+    width: 20rem;
+    
 }

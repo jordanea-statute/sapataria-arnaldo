@@ -34,7 +34,7 @@
     </header>
     <div class="container">
         <main>
-            <form action="" method="">
+            <form class="contact-form" action="">
                 <label for="name">nome:</label>
                 <input type="text" id="name" autofocus required>
                 <!-- autofocus serve para ir direto para o primero campo do formulario -->
@@ -43,7 +43,14 @@
                 <input type="email" id="mail" required> <!-- required serve para deixar o campo obrigatorio -->
     
                 <label for="subject">Assunto:</label required>
-                <input type="text" id="subject">
+                <!-- <input type="text" id="subject"> -->
+                <select id="subject" required>
+                    <option value="Prazo" >Prazo de entrega</option>
+                    <option value="Orçamento" >Orçamento</option>
+                    <option value="Contato" >Contato</option>
+                    <option value="Outros" >Outros</option>
+
+                </select>
     
                 <label for="message">Mensagem:</label>
                 <textarea id="message" cols="30" rows="5"></textarea>
@@ -62,11 +69,12 @@
             <p>das 08h ás 17h</p>
             <p>Sábados</p>
             <p>das 09h ás 12h</p>
-
-        <a href="#"><img class="social-icons" src="icons/Facebook.svg" alt="Facebook"></a>
-        <a href="#"><img class="social-icons" src="icons/Instagram.svg" alt="Instagram"></a>
-        <a href="#"><img class="social-icons" src="icons/Gmail.svg" alt="Email"></a>
-        <a href="#"><img class="social-icons" src="icons/Whatsapp.svg" alt="Whatsapp"></a>
+          
+            <a href="#"><img class="social-icons" src="icons/Facebook.svg" alt="Facebook"></a>
+            <a href="#"><img class="social-icons" src="icons/Instagram.svg" alt="Instagram"></a>
+            <a href="#"><img class="social-icons" src="icons/Gmail.svg" alt="Email"></a>
+            <a href="#"><img class="social-icons" src="icons/Whatsapp.svg" alt="Whatsapp"></a>
+           
         </aside>
     </div>
     <footer>
