@@ -54,32 +54,7 @@ main {
     align-items: center;
     margin: auto;
 }
-.product-container-title {
-font-size: 20pt;
-font-weight: lighter;
-padding-bottom: 3rem;
-padding-top: 2rem;
-}
-.product-container {
-    background-color: white;
-    width: 90%;
-    display: flex;
-    justify-content: space-around;
-    /* faz o alinhamento na horizontal */
-    
-}
-.image-product {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;      
-}
-.imagem-footer {
-width: 100%;  /*largura*/
-height: 300px ; /* altura*/
-object-fit: cover; /* ajustar a imagen para nao estourar*/
-padding-top: 3rem;
-}
-/*  */
+/* INDEX-HOME */
 .image-home {
     /* /* serve para deixar o conteiner flexivo */
     /* display: flex;*/
@@ -90,6 +65,18 @@ padding-top: 3rem;
     object-fit: cover;
     object-position: 0 50;
     /* ajustar a posição da imagen,com altura e largura*/
+}
+                     /*-- -- -- -- --*/
+/* pagina sobre-nos*/
+.main-text {
+    font-size: 15pt;
+    margin: 40px;
+    text-align: right ; /* alinha o texto de acordo com a direção que voce quer*/
+}
+.main-sobre-nos{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse; /* inverte a ordem da linha, no caso o texto com a imagem*/
 }
 .picture-banner {
     width: 100%;
@@ -102,30 +89,42 @@ padding-top: 3rem;
     font-size: 10pt;
     display: flex;
     justify-content: flex-end ;
-    padding-right: 3rem;
+    padding-right : 3rem;
 }
-/* pagina sobre-nos*/
-.main-text {
-    font-size: 15pt;
-    margin: 40px;
-    text-align: right ; /* alinha o texto de acordo com a direção que voce quer*/
-}
-.main-sobre-nos{
+.image-sapataria-anos90{
     display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse; /* inverte a ordem da linha, no caso o texto com a imagem*/
+    
 }
+              /*-- -- -- -- --*/
+ /*CATALOGO*/
 .banner-header {
     width: 100%;  /*largura do container ou imagem*/
     height: 300px ; /* alturacontainer ou imagem*/
     object-fit: cover; /* ajustar a imagen para nao estourar*/
     padding-top: 3rem;
 }
+.product-container-title {
+    font-size: 20pt;
+    font-weight: lighter;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+    }
+.product-container {
+    background-color: white;
+    width: 90%;
+    display: flex;
+    justify-content: space-around; /* faz o alinhamento na horizontal */  
+}
+.image-product {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;      
+}
+                    /*-- -- -- -- --*/
 /* pagina contato */
 .container {
     display: flex;
     justify-content: space-between; /*space-between serve para alinhar ao lado tudo que esta dentro do container*/
-
 }
 .container > aside > img {
     width: 400px;
@@ -138,7 +137,7 @@ padding-top: 3rem;
     font-size: 14pt;
     font-weight: 600;
 }
-
+                /*-- -- -- -- --*/
 /* formulario */
 label, button{
     display: block;   
@@ -164,7 +163,8 @@ margin-left: 1rem;
 .contact-form button{
     width: 20rem;
     
-}
+} 
+          /*-- -- -- -- --*/
 /*footer*/
 .adress-page {
     display: flex;
@@ -180,3 +180,9 @@ margin-left: 1rem;
     padding-top: 3rem;
     padding-left: 3rem;
 }
+.imagem-footer { /* TIREI ESSA IMAGEM DO FOOTER*/
+    width: 100%;  /*largura*/
+    height: 300px ; /* altura*/
+    object-fit: cover; /* ajustar a imagen para nao estourar*/
+    padding-top: 3rem;
+} 
