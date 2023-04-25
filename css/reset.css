@@ -47,5 +47,5 @@ table {
 	border-spacing: 0;
 }         
 *{
-	box-sizing: border-box;
+	box-sizing: border-box; /* serve para deixar o formulario todo alinhado, as caixas do mesmo tamanho*/
 }

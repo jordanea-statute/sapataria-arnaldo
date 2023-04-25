@@ -12,7 +12,6 @@ body {
     font-style: italic;
     font-weight: 100;
 }
-
 .navbar {
     /* display flex serve para deixar flexivel tudo que esta dentro do conteiner */
     display: flex;
@@ -80,8 +79,6 @@ height: 300px ; /* altura*/
 object-fit: cover; /* ajustar a imagen para nao estourar*/
 padding-top: 3rem;
 }
-
-
 /*  */
 .image-home {
     /* /* serve para deixar o conteiner flexivo */
@@ -107,30 +104,22 @@ padding-top: 3rem;
     justify-content: flex-end ;
     padding-right: 3rem;
 }
-.paragraph-text {
+/* pagina sobre-nos*/
+.main-text {
     font-size: 15pt;
     margin: 40px;
+    text-align: right ; /* alinha o texto de acordo com a direção que voce quer*/
+}
+.main-sobre-nos{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse; /* inverte a ordem da linha, no caso o texto com a imagem*/
 }
 .banner-header {
     width: 100%;  /*largura do container ou imagem*/
     height: 300px ; /* alturacontainer ou imagem*/
     object-fit: cover; /* ajustar a imagen para nao estourar*/
     padding-top: 3rem;
-}
-/* footer */
-.adress-page {
-    display: flex;
-    flex-direction: column; /*serve para deixar o display em coluna*/
-    padding-left: 3rem;
-    padding-top: 3rem;
-    height: 100px; 
-    justify-content: space-between ; /*serve para dar o espaçamento das linhas, pois estou usando o column*/
-  
-}
-.social-icons {
-    height: 5rem;
-    padding-top: 3rem;
-    padding-left: 3rem;
 }
 /* pagina contato */
 .container {
@@ -175,4 +164,19 @@ margin-left: 1rem;
 .contact-form button{
     width: 20rem;
     
+}
+/*footer*/
+.adress-page {
+    display: flex;
+    flex-direction: column; /*serve para deixar o display em coluna*/
+    padding-left: 3rem;
+    padding-top: 3rem;
+    height: 100px; 
+    justify-content: space-between ; /*serve para dar o espaçamento das linhas, pois estou usando o column*/
+  
+}
+.social-icons {
+    height: 5rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
 }
