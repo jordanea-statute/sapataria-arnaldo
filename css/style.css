@@ -30,8 +30,19 @@ body {
     padding-right: 3rem;
     text-decoration: none; /* serve para tirar o underline do menu*/
     color: black;
-    text-transform: uppercase;
+    text-transform: uppercase;  
 }
+navbar a:active{
+    color: aqua; /* selected link*/
+}
+navbar a:hover{ /*mouse over link*/
+    transform: scale(1.5);
+    for
+}
+navbar a:visited{ /**/
+  
+}
+
 .page-title {
     font-size: 30pt;
     font-weight: bold;
@@ -71,7 +82,11 @@ main {
 .main-text {
     font-size: 15pt;
     margin: 40px;
-    text-align: right ; /* alinha o texto de acordo com a direção que voce quer*/
+    /*text-align: right ;  alinha o texto de acordo com a direção que voce quer*/    
+}
+.main-text p{
+    margin: 1rem;
+    line-height: 150%;
 }
 .main-sobre-nos{
     display: flex;
@@ -92,9 +107,8 @@ main {
     padding-right : 3rem;
 }
 .image-sapataria-anos90{
-    display: flex;
-    margin: auto;
-    
+    margin: 0 2rem;
+      
 }
               /*-- -- -- -- --*/
  /*CATALOGO*/
