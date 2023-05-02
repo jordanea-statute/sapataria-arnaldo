@@ -12,7 +12,7 @@ body {
     font-style: italic;
     font-weight: 100;
 }
-.navbar {
+.navbar ul {
     /* display flex serve para deixar flexivel tudo que esta dentro do conteiner */
     display: flex;
     /* serve para jogar o texto para o final */
@@ -93,6 +93,7 @@ main {
 }
 .image-sapataria-anos90{
     display: flex;
+    margin: auto;
     
 }
               /*-- -- -- -- --*/
