@@ -188,16 +188,13 @@ margin-left: 1rem;
     padding-top: 3rem;
     height: 100px; 
     justify-content: space-between ; /*serve para dar o espaçamento das linhas, pois estou usando o column*/
-  
 }
+
 .social-icons {
     height: 5rem;
     padding-top: 3rem;
     padding-left: 3rem;
 }
-.imagem-footer { /* TIREI ESSA IMAGEM DO FOOTER*/
-    width: 100%;  /*largura*/
-    height: 300px ; /* altura*/
-    object-fit: cover; /* ajustar a imagen para nao estourar*/
-    padding-top: 3rem;
-} 
+
+.
+
