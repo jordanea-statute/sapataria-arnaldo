@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,200;1,300;1,500;1,600;1,700&display=swap');
+
+:root {
+    --cor-fundo-principal: radial-gradient(#874421, #7c3b1a, #b87733);
+}
+
+body {
+    color: whitesmoke;
+    /* serve para dar cor no fundo/body */
+    background: var(--cor-fundo-principal);
+    font-family: Raleway, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+.navbar ul {
+    /* display flex serve para deixar flexivel tudo que esta dentro do conteiner */
+    display: flex;
+    /* serve para jogar o texto para o final */
+    justify-content: flex-end;
+    /* serve para colocar espaçamento do conteiner todo(para descolar da borda) */
+    padding-right: 3rem;
+    /* serve para colocar espaçamento do conteiner todo(para descolar do topo) */
+    padding-top: 3rem;
+    /* serve para mexer no tamanho da fonte das letras */
+    font-size: 1.5rem;
+
+}
+.navbar a {
+    /* serve para colocar espaçamento entre as palavras das linhas */
+    padding-right: 3rem;
+    text-decoration: none; /* serve para tirar o underline do menu*/
+    color: black;
+    text-transform: uppercase;  
+}
+navbar a:active{
+    color: aqua; /* selected link*/
+}
+navbar a:hover{ /*mouse over link*/
+    transform: scale(1.5);
+    for
+}
+navbar a:visited{ /**/
+  
+}
+
+.page-title {
+    font-size: 30pt;
+    font-weight: bold;
+    /* display flex serve para deixar flexivel tudo que esta dentro do conteiner */
+    display: flex;
+    /* serve para colocar espaçamento do conteiner todo(para descolar da borda) */
+    margin: 40px;
+}
+
+.page-subtitle {
+    font-size: 20pt;
+    display: flex;
+    padding-left: 4rem;
+    margin: auto;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    /* serve para deixar em coluna, um embaixo do outro( no caso o conteudo do container) */
+    align-items: center;
+    margin: auto;
+}
+/* INDEX-HOME */
+.image-home {
+    /* /* serve para deixar o conteiner flexivo */
+    /* display: flex;*/
+    /* serve para deixar o conteiner no meio */
+    /*  justify-content: center;*/
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0 50;
+    /* ajustar a posição da imagen,com altura e largura*/
+}
+                     /*-- -- -- -- --*/
+/* pagina sobre-nos*/
+.main-text {
+    font-size: 15pt;
+    margin: 40px;
+    /*text-align: right ;  alinha o texto de acordo com a direção que voce quer*/    
+}
+.main-text p{
+    margin: 1rem;
+    line-height: 150%;
+}
+.main-sobre-nos{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse; /* inverte a ordem da linha, no caso o texto com a imagem*/
+}
+.picture-banner {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: flex;
+    object-position: center ;
+}
+.picture-description {
+    font-size: 10pt;
+    display: flex;
+    justify-content: flex-end ;
+    padding-right : 3rem;
+}
+.image-sapataria-anos90{
+    margin: 0 2rem;
+      
+}
+              /*-- -- -- -- --*/
+ /*CATALOGO*/
+.banner-header {
+    width: 100%;  /*largura do container ou imagem*/
+    height: 300px ; /* alturacontainer ou imagem*/
+    object-fit: cover; /* ajustar a imagen para nao estourar*/
+    padding-top: 3rem;
+}
+.product-container-title {
+    font-size: 20pt;
+    font-weight: lighter;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+    }
+.product-container {
+    background-color: white;
+    width: 90%;
+    display: flex;
+    justify-content: space-around; /* faz o alinhamento na horizontal */  
+}
+.image-product {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;      
+}
+                    /*-- -- -- -- --*/
+/* pagina contato */
+.container {
+    display: flex;
+    justify-content: space-between; /*space-between serve para alinhar ao lado tudo que esta dentro do container*/
+}
+.container > aside > img {
+    width: 400px;
+}
+.container aside{
+    margin:auto;
+    padding-top: 6rem;
+}
+.container h3 {
+    font-size: 14pt;
+    font-weight: 600;
+}
+                /*-- -- -- -- --*/
+/* formulario */
+label, button{
+    display: block;   
+}
+input, select,textarea{
+    border: none;
+    background-color: #f1f1f1d0;
+}
+button{
+    cursor: pointer; /* serve para aparecer a a maozinha para clicar*/
+}
+.contact-form{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+height: 20rem;
+margin-left: 1rem;
+
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select,
+.contact-form button{
+    width: 20rem;
+    
+} 
+          /*-- -- -- -- --*/
+/*footer*/
+.adress-page {
+    display: flex;
+    flex-direction: column; /*serve para deixar o display em coluna*/
+    padding-left: 3rem;
+    padding-top: 3rem;
+    height: 100px; 
+    justify-content: space-between ; /*serve para dar o espaçamento das linhas, pois estou usando o column*/
+}
+
+.social-icons {
+    height: 5rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+.
+

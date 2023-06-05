@@ -1,50 +1,78 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> <!--serve para o conjunto de caracteres-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- serve para trabalhar com responsividade, serve para fazer com que abra bem em qualquer dispositivo de acordo com o tamanho da tela-->
+    <meta name="description"
+        content="Sapataria do Arnaldo desde 1940 consertando e criando com excelencia e credibilidade">
+    <!-- serve para dar uma ideia/aprensetação sobre o conteudo da pagina-->
+    <meta name="author" content="JordaneaStatute">
+    <meta name="keywords" content="Sapataria"> <!--sistema de buscar por palavras chaves, porem o google nao usa mais-->
 
     <!-- nunca apagar o reset.css das paginas -->
     <link rel="stylesheet" href="./css/reset.css">
     <!--Primeira E MELHOR forma de inclusão de CSS-->
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <title>Sapataria do Arnaldo - Home</title>
 </head>
 
 <body>
-
     <header>
-        <nav>
-            <ul class="navegacaomenu">
+        <nav class="navbar">
+            <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="sobre-nos.html">Sobre nós</a></li>
                 <li><a href="contato.html">Contato</a></li>
                 <li><a href="catalogo.html">catálogo</a></li>
             </ul>
         </nav>
-        <h1 class="titulo-pagina">Sapataria Arnaldo</h1>
-        <h2 class="subtitulo-pagina">Sapataria de produção</h2>
+        
+        <h1 class="page-title">Sapataria Arnaldo</h1>
+        <h2 class="page-subtitle">Sapataria de produção</h2>
 
-        <div >
-            <img class="imagem-home" src="http://sapatariadamione.com.br/wp-content/uploads/2019/11/WhatsApp-Image-2019-11-19-at-11.39.45.jpeg">
-        </div> 
+        <div>
+            <img class="image-home"
+                src="http://sapatariadamione.com.br/wp-content/uploads/2019/11/WhatsApp-Image-2019-11-19-at-11.39.45.jpeg">
+        </div>
 
     </header>
     <main>
 
     </main>
-   <footer class="rodape">
+    <footer>
+        <address class="adress-page">
+            <p>Endereço Rua Forte do Leme,52</p>
+            <p>Jardim Santa adélia São Paulo-SP 00123-210</p>
+            <p>Telefone: (11) 3371-1279 </p>
+            <p>Email:sapataria.arnaldo@gmail.com</p>
+        </address>
+        <div class="social-itens">
+            <a href="#"><img class="social-icons" src="icons/Facebook.svg" alt="Facebook"></a>
+            <a href="#"><img class="social-icons" src="icons/Instagram.svg" alt="Instagram"></a>
+            <a href="#"><img class="social-icons" src="icons/Gmail.svg" alt="Email"></a>
+            <a href="#"><img class="social-icons" src="icons/Whatsapp.svg" alt="Whatsapp"></a>
+        </div>
 
+        <div class="payment-logoggit s">
+                <p>Formas de pagamento</p>
+            <div>
+                <img src="./imagens/Pix 10801080.svg">
+                <img src="./imagens/mc_vrt_pos.svg">
+            </div>
+            <div>
+                <p>Compra segura</p>
+            </div>
+        </div>
 
-
-
-
-
-
-</footer>
+        <div class="copyrigth">
+            <p>Copyrigth by Sapataria Arnaldo</p>
+            <p>Desenvolvido por CouroLab</p>
+        </div>
+    </footer>
 
 </body>
 

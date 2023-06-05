@@ -2,43 +2,89 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> <!--serve para o conjunto de caracteres-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- serve para trabalhar com responsividade, serve para fazer com que abra bem em qualquer dispositivo de acordo com o tamanho da tela-->
+    <meta name="description" content="Conheça o nossa loja.">
+    <!-- serve para dar uma ideia/aprensetação sobre o conteudo da pagina-->
+    <meta name="author" content="JordaneaStatute">
+    <!--<meta name="keywords" content="Sapataria"> sistema de buscar por palavras chaves, porem o google nao usa mais-->
 
     <!--Primeira E MELHOR forma de inclusão de CSS-->
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <title>Sapataria do Arnaldo - Contato</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul class="navegacaomenu">
+        <nav class="navbar">
+            <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="sobre-nos.html">Sobre nós</a></li>
                 <li><a href="contato.html">Contato</a></li>
                 <li><a href="catalogo.html">catálogo</a></li>
             </ul>
         </nav>
-        <h1 class="titulo-pagina">Sapataria Arnaldo</h1>
-        <address class="endereço">
+        <h1 class="page-title">Sapataria Arnaldo</h1>
+        <h2 class="page-subtitle">Sapataria de produção</h2>
+
+    </header>
+    <div class="container">
+        <main>
+            <form class="contact-form" action="" method="" onsubmit="alert('Formulario enviado com sucesso!')">
+                <label for="name">nome:</label>
+                <input type="text" id="name" autofocus required>
+                <!-- autofocus serve para ir direto para o primero campo do formulario -->
+    
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" required> <!-- required serve para deixar o campo obrigatorio -->
+    
+                <label for="subject">Assunto:</label required>
+                <!-- <input type="text" id="subject"> -->
+                <select id="subject" required>
+                    <option value="Prazo" >Prazo de entrega</option>
+                    <option value="Orçamento" >Orçamento</option>
+                    <option value="Contato" >Contato</option>
+                    <option value="Outros" >Outros</option>
+
+                </select>
+    
+                <label for="message">Mensagem:</label>
+                <textarea id="message" cols="30" rows="5" placeholder="Digite aqui seu problema..."></textarea>
+    
+                <label for="phone">Telefone:</label required>
+                <input type="tel" id="phone" required placeholder="(xx)xxxxx-xxxx"> <!-- o placeholder serve para simular como o usuario deve escrever -->
+                <button>Enviar</button>
+            </form>
+        </main>
+        <aside>
+            <img src="./img/fachada-sapataria.png" alt="foto do local">
+    
+            <h3>Horario de funcionamento</h3>
+            <p>seg. a sex. </p>
+            <p>das 08h ás 17h</p>
+            <p>Sábados</p>
+            <p>das 09h ás 12h</p>
+          
+            <a href="#"><img class="social-icons" src="icons/Facebook.svg" alt="Facebook"></a>
+            <a href="#"><img class="social-icons" src="icons/Instagram.svg" alt="Instagram"></a>
+            <a href="#"><img class="social-icons" src="icons/Gmail.svg" alt="Email"></a>
+            <a href="#"><img class="social-icons" src="icons/Whatsapp.svg" alt="Whatsapp"></a>
+           
+        </aside>
+    </div>
+    <footer>
+        <address class="adress-page">
             <p>Endereço Rua Forte do Leme,52</p>
             <p>Jardim Santa adélia São Paulo-SP 00123-210</p>
             <p>Telefone: (11) 3371-1279 </p>
             <p>Email:sapataria.arnaldo@gmail.com</p>
         </address>
-        <a href="#"><img src="icons/Facebook.svg" alt="Facebook"></a>
-        <a href="#"><img src="icons/Instagram.svg" alt="Instagram"></a>
-        <a href="#"><img src="icons/Gmail.svg" alt="Email"></a>
-        <a href="#"><img src="icons/Whatsapp.svg" alt="Whatsapp"></a>
-
-    </header>
-    <main>
         
-    </main>
+    </footer>
 
 </body>
 

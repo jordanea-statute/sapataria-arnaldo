@@ -56,3 +56,15 @@ body {
     display: flex;
     padding-left: 3rem;  
 }
+
+/*@media screen and (max-width: 400px) { serve para responsividade
+
+    *{         o * aplica as propriedades do CSS para todos elementos da pagina
+
+    }
+    
+}*/
+@media screen and (max-width: 400px){
+
+    
+}
